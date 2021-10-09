@@ -30,3 +30,10 @@ async def get_user(username: str):
 @app.post("/items/")
 def create_item(item: Item):
     return item
+
+@app.post("/items/{item_id}")
+def create_new_item(item_id: int, item: Item):
+    return {
+        'item_id' : item_id,
+        'item': item
+    } 
