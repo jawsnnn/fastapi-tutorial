@@ -1,0 +1,1 @@
+.venv\fastapi-demo\Scripts\activate.bat
