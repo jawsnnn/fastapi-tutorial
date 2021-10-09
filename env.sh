@@ -1,0 +1,1 @@
+source ./.venv/fastapi-demo/bin/activate

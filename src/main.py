@@ -9,5 +9,5 @@ application = FastAPI()
 @application.get("/")
 def get_root(message):
     return {
-        "message": f"This is a goddamn message: {message}"
+        "message": f"This is a fresh message: {message}"
     }
